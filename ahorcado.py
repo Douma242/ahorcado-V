@@ -1,3 +1,4 @@
+import funciones
 print("Bienvenido")
 palabras=[
 	"de",
@@ -499,3 +500,15 @@ palabras=[
 	"nuevas",
 	"calidad"
 ]
+p=funciones.al_azar(palabras)
+palabra=len(p)
+oculto="_ "*palabra
+print (p)
+print(oculto)
+pa=list(p)
+res=input("Coloque letra: ")
+n=pa[0]
+for i in range pa:
+	while res!=n:
+		
+print ("hola")
