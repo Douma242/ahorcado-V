@@ -1,6 +1,7 @@
 import funciones
 print("Bienvenido")
 palabras=[]
+i=[1,2,3,4,5,6,7,8]
 p=funciones.palabritas(palabras)
 lenp=len(p)
 oculto="_ "*lenp
@@ -8,11 +9,8 @@ print (p)
 print(oculto)
 pa=list(p)
 res=input("Coloque letra: ")
-n=pa[0]
-while res!=n:
-	if res!=n:
-		
+if res in pa:
+	gana=True
+else:
+	print("Pato")
 
-
-		
-print ("hola")
