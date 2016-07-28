@@ -7,7 +7,9 @@ errores=0
 p=funciones.palabritas(palabras)
 for letra in p:
 	guiones.append("_")
-while errores<=7:
+opc=8*len(p)
+while errores < opc:
+	print("waka")
 	while "_" in guiones:
 		oculto=" ".join(guiones)
 		print (p)
@@ -16,7 +18,9 @@ while errores<=7:
 		for i in range (0, len(p)):
 			if p[i]==res:
 				guiones[i]=res
-		if res not in guiones:
-			errores=errores+1
+			if res!=p:
+				errores=errores+1
+		print(errores)
+
 print (p)
 print ("Bai Bai")
