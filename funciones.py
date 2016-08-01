@@ -503,3 +503,41 @@ def palabritas(l1):
 	]
 	random.shuffle(l1)
 	return l1[0]
+
+def dibujo(errores):
+	palito=[
+	"""
+	_______________
+	|              |
+	|              |
+	|
+	|
+	|
+	|
+	|
+	|
+	|""",
+	"""
+	_______________
+	|              |
+	|              |
+	|              O
+	|
+	|
+	|
+	|
+	|
+	|""",
+	"""
+	_______________
+	|              |
+	|              |
+	|              O
+	|              |
+	|
+	|
+	|
+	|
+	|""",
+	]
+	for i in range (0, errores)

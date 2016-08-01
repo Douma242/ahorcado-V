@@ -9,7 +9,6 @@ for letra in p:
 	guiones.append("_")
 while errores<8:
 	oculto=" ".join(guiones)
-	print (p)
 	print(oculto)
 	res=input("Coloque letra: ")
 	for i in range (0, len(p)):
