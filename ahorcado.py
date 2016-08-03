@@ -16,6 +16,7 @@ while errores<8:
 			guiones[i]=res
 	if res not in p:
 		errores=errores+1
+		print(funciones.dibujo(errores))
 	if "_" not in guiones:
 		errores=8
 if "_" in guiones:

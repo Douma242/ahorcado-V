@@ -539,5 +539,62 @@ def dibujo(errores):
 	|
 	|
 	|""",
+	"""
+	_______________
+	|              |
+	|              |
+	|              O
+	|             -|
+	|			  
+	|
+	|
+	|
+	|""",
+	"""
+	_______________
+	|              |
+	|              |
+	|              O
+	|             -|-
+	|			  
+	|
+	|
+	|
+	|""",
+	"""
+	_______________
+	|              |
+	|              |
+	|              O
+	|             -|-
+	|	       /
+	|
+	|
+	|
+	|""",
+	"""
+	_______________
+	|              |
+	|              |
+	|              O
+	|             -|-
+	|	      //
+	|
+	|
+	|
+	|"""
 	]
-	for i in range (0, errores)
+	if errores==1:
+		return(palito[0])
+	if errores==2:
+		return(palito[1])
+	if errores==3:
+		return(palito[2])
+	if errores==4:
+		return(palito[3])
+	if errores==5:
+		return(palito[4])
+	if errores==6:
+		return(palito[5])
+	if errores==7:
+		return(palito[6])
