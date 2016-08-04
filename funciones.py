@@ -598,3 +598,5 @@ def dibujo(errores):
 		return(palito[5])
 	if errores==7:
 		return(palito[6])
+	if errores==8:
+		return	("")
